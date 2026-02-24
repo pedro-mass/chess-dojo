@@ -2,5 +2,16 @@
     "editor.formatOnSave": true,
     "githubPullRequests.ignoredPullRequestBranches": [
         "main"
-    ]
+    ],
+    "search.exclude": {
+        "**/.cache/**": true,
+        "**/.git/**": true,
+        "**/.next/**": true,
+        "**/.turbo/**": true,
+        "**/build/**": true,
+        "**/coverage/**": true,
+        "**/dist/**": true,
+        "**/node_modules/**": true,
+        "**/out/**": true
+    }
 }
